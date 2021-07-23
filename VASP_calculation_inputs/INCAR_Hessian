@@ -1,0 +1,36 @@
+system = flex_MOF
+
+ISTART = 1 ## restarted from pre-converged WAVECAR
+ICHARG = 0
+INIWAV = 1
+ISPIN = 2
+
+LREAL = False
+PREC = Accurate
+NCORE = 8
+
+GGA = PE
+
+#SCF options
+ENCUT = 600        #energy cutoff [ev]
+EDIFF = 1E-8       #SCF criteria
+
+# Relaxation options
+EDIFFG = -0.01     #Force criteria
+IBRION = 6         #Ionic relaxation (RMM-DIIS: 1, CG: 2)
+ISIF = 0           #relax Relaxation
+NSW =  1           #Number of steps for relaxation
+NELMIN = 2
+NELM = 100
+IALGO = 48
+IVDW = 12
+ISYM = 0
+
+ISMEAR = 0         #Default
+SIGMA = 0.05       #Default
+
+KSPACING = 0.3
+KGAMMA = .TRUE.
+
+LORBIT = 11
+
