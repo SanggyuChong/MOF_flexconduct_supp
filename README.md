@@ -1,5 +1,5 @@
 
-This repository contains the optimized structural files of M(NDIDP) MOFs at all volumes considered, DFT-derived force field parameters of M(NDIDP), and inputs for QuickFF, Yaff, and VASP calculations from the "Tunable Electrical Conductivity of Flexible Metal–Organic Frameworks" study by Chong et al. (2021).
+This repository contains the optimized structural files of M(NDIDP) MOFs at all volumes considered, DFT-derived force field parameters of M(NDIDP), and inputs for QuickFF, Yaff, and VASP calculations from the "Tunable Electrical Conductivity of Flexible Metal–Organic Frameworks" study by Chong, Rogge, and Kim (2021).
 
 ## optimized_structures
 This directory contains the optimized `CONTCAR` files of the M(NDIDP) MOFs at the volume points considered.
